@@ -1,0 +1,24 @@
+###################################################################################################
+############################# ShamanOps pipeline | GitHub Actions##################################
+###################################################################################################
+name: ShamanOps
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  shamanops:
+    uses: shamanops/resources/.github/workflows/base-cloud-stable.yaml@main
+    with:
+    ## Environments:
+    ## full-with-drp (dev/stg/prod/drp) | full (dev/stg/prod) | mid (stg/prod) | minimal (prod)
+      environments: 'full'
+    # Project
+      projectName: 'examples'
+    # Approvals
+      shamanopsBusinessApprovers: 'fernando.thompson@soldig.mx'
+      shamanopsTechnicalApprovers: 'jvaldes@soldig.mx'
+      shamanopsBusinessApproversMinimalProd: '1'
+      shamanopsTechnicalApproversMinimalProd: '1'
+    secrets: inherit
+##################################################################################################
+##################################################################################################
