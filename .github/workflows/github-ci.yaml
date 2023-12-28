@@ -16,6 +16,8 @@ jobs:
       projectName: 'examples'
     # Application internal port
       appInternalPort: '80'
+    # Verbosity level (normal/debug)
+      log_level: 'debug'
     # Approvals
       shamanopsBusinessApprovers: 'fernando.thompson@soldig.mx'
       shamanopsTechnicalApprovers: 'jvaldes@soldig.mx'
