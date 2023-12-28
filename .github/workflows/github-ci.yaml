@@ -13,7 +13,7 @@ jobs:
     ## full-with-drp (dev/stg/prod/drp) | full (dev/stg/prod) | mid (stg/prod) | minimal (prod)
       environments: 'full'
     # Project
-      projectName: 'example'
+      projectName: 'examples'
     # Approvals
       shamanopsBusinessApprovers: 'fernando.thompson@soldig.mx'
       shamanopsTechnicalApprovers: 'jvaldes@soldig.mx'
