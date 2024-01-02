@@ -13,7 +13,7 @@ jobs:
     ## full-with-drp (dev/stg/prod/drp) | full (dev/stg/prod) | mid (stg/prod) | minimal (prod)
       environments: 'full'
     # Project
-      projectName: 'examples'
+      projectName: 'example'
     # Application internal port
       appInternalPort: '80'
     # Verbosity level (normal/debug)
